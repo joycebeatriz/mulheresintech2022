@@ -1,1 +1,0 @@
-# mulheresintech2022
