@@ -13,7 +13,7 @@ https://templatemo.com/tm-575-leadership-event
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #0DCAF0; /*cor da logo*/ 
-  --secondary-color:              #ee4b00; /*cor do botão inscreva*/
+  --secondary-color:              #273053; /*cor do botão inscreva*/
   --section-bg-color:             #f0f8ff;
   --dark-color:                   #000000;
   --navbar-bg-color:              #0072FE;
@@ -576,7 +576,7 @@ strong {
   bottom: 0;
   background: var(--primary-color);
   width: 5px;
-  height: 100%;
+  height: 10%;
   transition: all 1s;
 }
 
