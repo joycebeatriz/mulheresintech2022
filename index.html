@@ -1,1260 +1,759 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>TheEvent Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <title>Mulheres in Tech | GDSC UFG</title>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <link href= 'https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="css/templatemo-leadership-event.css" rel="stylesheet">     
-    
+  <!-- =======================================================
+  * Template Name: TheEvent - v4.8.0
+  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-           
-            <a href="index.html" class="navbar-brand mx-auto mx-lg-0">
-                <div>      
-                    <img src="images/logo/logo_MiT.png">
-                </div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
+        <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">Palestrantes</a></li>
+          <li><a class="nav-link scrollto" href="#schedule">Agenda</a></li>
+          <li><a class="nav-link scrollto" href="#venue">Localização</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Comunidades</a></li>
+          <li><a class="nav-link scrollto" href="#supporters">Patrocinadores</a></li>  
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <a class="buy-tickets scrollto" href="https://www.sympla.com.br/mulheres-in-tech---edicao-zero--gdsc-ufg__1662091" role="button" target="_blank">Inscreva-se</a>
+     
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">     
+   <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+      <h1 class="text-danger mb-4" id="demo"></h1>
+      <div class="d-flex justify-content-center align-items-center">
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Aug 20, 2022 08:00:00").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
                 
-            </a>
-
-            <a class="nav-link custom-btn btn d-lg-none" href="">Inscreva-se</a>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_1">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_2">Sobre nós</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#speakers">Palestrantes</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_4">Programação</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_5">Modalidade</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_6">Local do evento</a>
-                    </li>                   
-                    <li class="nav-item">
-                        <a class="nav-link custom-btn btn d-none d-lg-block" href="#">Inscreva-se</a>
-                    </li>
-                </ul>
-                <div>
-
-                </div>
-    </nav>
-
-    <main>
-
-        <section class="hero" id="section_1">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-5 col-12 m-auto">
-                        <div class="hero-text">
-                             
-                            <h1 class="text-white mb-4" id="demo"></h1>
-
-                            <div class="d-flex justify-content-center align-items-center">
-                                <script>
-                                    // Set the date we're counting down to
-                                    var countDownDate = new Date("Aug 20, 2022 08:00:00").getTime();
-                                    
-                                    // Update the count down every 1 second
-                                    var x = setInterval(function() {
-                                    
-                                      // Get today's date and time
-                                      var now = new Date().getTime();
-                                        
-                                      // Find the distance between now and the count down date
-                                      var distance = countDownDate - now;
-                                        
-                                      // Time calculations for days, hours, minutes and seconds
-                                      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                                      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                                      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                                      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                                        
-                                      // Output the result in an element with id="demo"
-                                      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                                      + minutes + "m " + seconds + "s ";                                        
-                                      // If the count down is over, write some text 
-                                      if (distance < 0) {
-                                        clearInterval(x);
-                                        document.getElementById("demo").innerHTML = "EXPIRED";
-                                      }
-                                    }, 1000);
-                                    </script>
-
-                                <span class="date-text">20 de agosto de 2022</span>
-
-                                <span class="location-text">INF/UFG, Goiânia - GO</span>
-                            </div>
-
-                            <a href="#section_2" class="custom-link bi-arrow-down arrow-icon"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>           
-
-            <div class="video-wrap">
-                <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                    <source src="videos/Abertura_GDSC.mp4" type="video/mp4">                    
-                </video>
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+                
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";                                        
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+            </script>
             </div>
-        </section>   
+            <p class="mb-4 pb-0">20 de agosto de 2022, INF/UFG, Goiânia - GO</p>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+            <a href="#about" class="about-btn scrollto">Sobre o evento</a>     
+          </div>
+    
+  </section><!-- En Hero Section -->
 
-        <section class="about section-padding" id="section_2">
-            <div class="container">
-                <div class="row">
+  <main id="main">
 
-                    <div class="col-lg-10 col-12">
-                        <h2 class="mb-4"> <a class="text-info"> O que é o MiT?</a></h2>
-                    </div>
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Sobre o evento</h2>
+            <p align="justify">O Mulheres in Tech é a primeira iniciativa formal de promoção de diversidade, equidade e inclusão do Google Developer Student Club UFG (GDSC UFG), que tem como principais objetivos incentivar e apoiar mulheres na área de TI. É uma ação em parceria com Women Techmakers, Instituto de Informática e Google Developers. </p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Onde</h3>
+            <p>Instituto de Informática - UFG, Goiânia</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Quando</h3>
+            <p>Sábado,<br>20 de Agosto</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
 
-                    <div class="col-lg-6 col-12">
-                        <h5 class="mb-3">O primeiro evento presencial do GDSC UFG</h5>
+    <!-- ======= Speakers Section ======= -->
+    <section id="speakers">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>CONVIDADAS</h2>
+          <p>Nossas convidadas são de diversas áreas, como, por exemplo: Firebase, Ciência de Dados, Inteligência Artificial, Engenharia de Software, entre outras.</p>
+        </div>
 
-                        <p align="justify">O Mulheres in Tech, a primeira iniciativa formal de promoção de diversidade, equidade e inclusão do Google Developer Student Club UFG (GDSC UFG), que tem como principais objetivos incentivar e apoiar mulheres na área de TI. Será um dia super especial com atividades ministradas apenas por mulheres.
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/speakers/evelyn-mendes-mit.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <small class="speakers-featured-text">Keynote</small>
+                <h3><a href="speaker-details.html">Evelyn Mendes</a></h3>
+                <p>GDE, Specialist Software Engineer</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>                 
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Thielle Cathia</a></h3>
+                <p>Gerente de Projetos</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>                 
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Evellin Cardoso</a></h3>
+                <p>Docente INF/UFG</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>                 
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Lizandra Ottmann</a></h3>
+                <p>Gerente de Projetos - Aliare</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>                 
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Karen Pessoa</a></h3>
+                <p>Cientista de Dados (PyLadies)</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>                 
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Gabriella Damas</a></h3>
+                <p>Física e Mestranda (UFG)</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>                 
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/francieli.jpg" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Francieli Moreira</a></h3>
+                <p>Graduanda em Inteligência Artificial (UFG)</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>                 
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/Thais.jpg" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Thaís Gonçalves</a></h3>
+                <p>Graduanda em Ciência da Computação (UFG)</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>                 
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/Thailane.jpg" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Thailane Lopes</a></h3>
+                <p>Graduanda em Ciência da Computação (UFG)</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>                 
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                           <br><br>*Fonte: Pnad - Pesquisa Nacional por Amostra de Domicílios</p>
+
+
+
+        </div>
+      </div>
+
+    </section><!-- End Speakers Section -->
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Agenda</h2>
+          <p>Aqui está a programação do evento</p>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="80">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Trilha 01 (Manhã)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Trilha 02 (Manhã)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Trilha 03 (Manhã)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-4" role="tab" data-bs-toggle="tab">Trilha 04 (tarde)</a>
+          </li>
+        </ul>
+
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Schdule Day 1 -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>08h30 - 10h</time></div>
+              <div class="col-md-10">
+                <h4>Credenciamento e Abertura</h4>
+                <p>O credenciamento será iniciado às 08h30 e será finalizado às 09h00.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10h - 11h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/gallery/6.jpg" alt=" Pyladies">                  
+                </div> 
+                <h4>Mulheres e PyLadies Goiânia na tecnologia, breve história do Brasil <span>Karen Pessoa e Gabriella Damas</span></h4>
                        
-                        <a class="custom-btn custom-border-btn btn custom-link mt-3 me-3" href="#speakers">Palestrantes</a>
-
-                        <a class="custom-btn btn custom-link mt-3" href="#section_4">Programação</a>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                        <h4>Você sabia que 79% das mulheres que ingressam em formações relacionadas à área de TI abandonam a faculdade ainda no primeiro ano?<sup>*</sup></h4>
-                    </div>
-
-                    
-
-                </div>
-            </div>
-        </section>
-        
-        <section class="speakers section-padding" id="speakers">
-            <div class="container" data-aos="fade-up">
-              <div class="section-header">
-               <h2 class="mb-4"><a class="text-info">Convidadas e Comunidades</a></h2>
-                <p><p>Nossas convidadas são de diversas áreas, como, por exemplo: Firebase, Ciência de Dados, Inteligência Artificial, Engenharia de Software, entre outras.</p></p>
-              </div>
-      
-              <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-                    <img src="images/avatar/evelyn-mendes-mit.jpg" alt="Speaker 1" class="img-fluid">
-                    <div class="details">
-                        <small class="speakers-featured-text">Keynote</small>
-                      <h3><a href="speaker-details.html">Evelyn Mendes</a></h3>
-                      <p>Google Developer Expert, Specialist Software Engineer</p>
-                      <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>                        
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-                    <img src="images/avatar/thielle.jpg" alt="Speaker 2" class="img-fluid">
-                    <div class="details">
-                      <h3><a href="speaker-details.html">Thielle Cathia</a></h3>
-                      <p>Gerente de Projetos</p>
-                      <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>                       
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                    <img src="images/avatar/profa-evellin.jpeg" alt="Speaker 3" class="img-fluid">
-                    <div class="details">
-                      <h3><a href="speaker-details.html">Evellin Cardoso</a></h3>
-                      <p>Docente INF/ UFG</p>
-                      <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>                      
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-                    <img src="images/avatar/foto-lizandra-aliare.png" alt="Speaker 4" class="img-fluid">
-                    <div class="details">
-                      <h3><a href="speaker-details.html">Lizandra Ottmann</a></h3>
-                      <p>Gerente de Projetos - Aliare</p>
-                      <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>                      
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-                    <img src="images/avatar/karen-pessoa.jpg" alt="Speaker 5" class="img-fluid">
-                    <div class="details">
-                      <h3><a href="speaker-details.html">Karen Pessoa</a></h3>
-                      <p>Cientista de Dados (PyLadies)</p>
-                      <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                    <img src="images/avatar/gabriella-damas.jpg" alt="Speaker 6" class="img-fluid">
-                    <div class="details">
-                      <h3><a href="speaker-details.html">Gabriella Damas</a></h3>
-                      <p>Física e mestranda (UFG)</p>
-                      <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>                       
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                      <img src="images/avatar/francieli-mit.jpg" alt="Speaker 6" class="img-fluid">
-                      <div class="details">
-                        <h3><a href="speaker-details.html">Francieli Moreira</a></h3>
-                        <p>Graduanda em Inteligência Artificial (UFG)</p>
-                        <div class="social">
-                          <a href=""><i class="bi bi-twitter"></i></a>                       
-                          <a href=""><i class="bi bi-instagram"></i></a>
-                          <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6">
-                    <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                      <img src="images/avatar/foto-thais-mit.jpg" alt="Speaker 6" class="img-fluid">
-                      <div class="details">
-                        <h3><a href="speaker-details.html">Thaís Gonçalves</a></h3>
-                        <p>Graduanda em Ciência da Computação (UFG)</p>
-                        <div class="social">
-                          <a href=""><i class="bi bi-twitter"></i></a>                       
-                          <a href=""><i class="bi bi-instagram"></i></a>
-                          <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                    <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                      <img src="images/avatar/pequiMecanico.jpg" alt="Speaker 6" class="img-fluid">
-                      <div class="details">
-                        <h3><a href="speaker-details.html">Pequi Mecânico</a></h3>
-                        <p>Núcleo de Robótica</p>
-                        <div class="social">
-                          <a href=""><i class="bi bi-twitter"></i></a>                       
-                          <a href=""><i class="bi bi-instagram"></i></a>
-                          <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                    <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                      <img src="images/avatar/meninasDigitais.jpg" alt="Speaker 6" class="img-fluid">
-                      <div class="details">
-                        <h3><a href="speaker-details.html">Meninas Digitais no Cerrado</a></h3>
-                        <p>IF Goiano - Campus Ceres</p>
-                        <div class="social">
-                          <a href=""><i class="bi bi-twitter"></i></a>                       
-                          <a href=""><i class="bi bi-instagram"></i></a>
-                          <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                    <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                      <img src="images/avatar/Pyladies.jpg" alt="Speaker 6" class="img-fluid">
-                      <div class="details">
-                        <h3><a href="speaker-details.html">PyLadies</a></h3>
-                        <p>Goiânia</p>
-                        <div class="social">
-                          <a href=""><i class="bi bi-twitter"></i></a>                       
-                          <a href=""><i class="bi bi-instagram"></i></a>
-                          <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-               
-                  <div class="col-lg-4 col-md-6">
-                    <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                      <img src="images/avatar/expert.jpg" alt="Speaker 6" class="img-fluid">
-                      <div class="details">
-                        <h3><a href="speaker-details.html">Google Expert</a></h3>
-                        <p>-</p>
-                        <div class="social">
-                          <a href=""><i class="bi bi-twitter"></i></a>                       
-                          <a href=""><i class="bi bi-instagram"></i></a>
-                          <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                    <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-                      <img src="images/avatar/gdg.jpg" alt="Speaker 6" class="img-fluid">
-                      <div class="details">
-                        <h3><a href="speaker-details.html">Google Developer Groups</a></h3>
-                        <p>Goiânia</p>
-                        <div class="social">
-                          <a href=""><i class="bi bi-twitter"></i></a>                       
-                          <a href=""><i class="bi bi-instagram"></i></a>
-                          <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
               </div>
             </div>
-      
-          </section><!-
-       
-        </section>
 
-
-        <section class="schedule section-padding" id="section_4">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-12">
-                        <h2 class="mb-5 text-center"> <a class="text-info">Programação (20/08)</a></h2>
-
-                        <nav>
-                            <div class="nav nav-tabs align-items-baseline" id="nav-tab" role="tablist">
-                                <button class="nav-link active" id="nav-DayOne-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-DayOne" type="button" role="tab" aria-controls="nav-DayOne"
-                                    aria-selected="true">
-                                    <h3>
-                                        <span>Trilha 01</span>
-                                        <small>Manhã</small>
-                                    </h3>
-                                </button>
-
-                                <button class="nav-link" id="nav-DayTwo-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-DayTwo" type="button" role="tab" aria-controls="nav-DayTwo"
-                                    aria-selected="false">
-                                    <h3>
-                                        <span>Trilha 02</span>
-                                        <small>Manhã</small>
-                                    </h3>
-                                </button>
-
-                                <button class="nav-link" id="nav-DayThree-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-DayThree" type="button" role="tab" aria-controls="nav-DayThree"
-                                    aria-selected="false">
-                                    <h3>
-                                        <span>Trilha 03</span>
-                                        <small>Manhã</small>
-                                    </h3>
-                                </button>
-
-                                <button class="nav-link" id="nav-DayFour-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-DayFour" type="button" role="tab" aria-controls="nav-DayFour"
-                                    aria-selected="false">
-                                    <h3>
-                                        <span>Trilha 04</span>
-                                        <small>Tarde</small>
-                                    </h3>
-                                </button>
-                            </div>
-                        </nav>
-
-                        <div class="tab-content mt-5" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-DayOne" role="tabpanel"
-                                aria-labelledby="nav-DayOne-tab">
-                                <div class="row border-bottom pb-5 mb-5">                                   
-
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-
-                                        <h4 class="mb-2">Credenciamento e Abertura</h4>
-
-                                        <p>O credenciamento será iniciado às 08h30 e será finalizado às 09h00.</p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/dev.png"
-                                                    class="img-fluid avatar-image" alt="">   
-                                                <div class="ms-3">GDSC UFG
-                                                    <p class="speakers-text mb-0">Core Team</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                08h30 - 10h 
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                Pátio do INF UFG
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row border-bottom pb-5 mb-5">                                   
-
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-
-                                        <h4 class="mb-2">Mulheres e PyLadies Goiânia na tecnologia, breve história do Brasil</h4>
-
-                                        <p><b>Karen</b> é estatística e cientista de dados, com mestrado em Direitos Humanos e em Estatística. “Acredito no papel transformador da educação e no poder da união de mulheres em movimentar a realidade social.”<br>
-                                            <br><b>Gabriella</b> é Física pela UFG, e mestranda em Termodinâmica Quântica. Acredita numa ciência justa, diversa e igualitária.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/karen-pessoa.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-                                                <img src="images/avatar/gabriella-damas.jpg"
-                                                class="img-fluid avatar-image" alt="">
-                                                <div class="ms-3">
-                                                   karen Pessoa e<br>Gabriella Damas
-                                                    <p class="speakers-text mb-0">Meninas Digitais no Cerrado</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10h- 11h 
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-                                <div class="row border-bottom pb-5 mb-5">                                   
-
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-
-                                        <h4 class="mb-2">Era uma vez Lovelace: A História das Mulheres na Tecnologia</h4>
-
-                                        <p>O projeto Meninas Digitais no Cerrado surgiu no ano de 2016 com o desejo de transformar o IF Goiano - Campus Ceres em uma instituição parceira da Sociedade Brasileira da Computação (SBC) no âmbito de seu programa nacional homônimo, existente desde 2011, cujo objetivo é divulgar a área de computação, despertar o interesse de estudantes do ensino médio/tecnológico ou mesmo dos anos finais do ensino fundamental e, por conseguinte, motivá-las a seguir carreira em Computação.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/meninasDigitais_Logo.png"
-                                                    class="img-fluid avatar-image" alt="">
-                                                
-                                                <div class="ms-3">
-                                                   Meninas Digitais no Cerrado
-                                                    <p class="speakers-text mb-0">IF Goiano - Campus Ceres</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                11h - 12h
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="row">                                   
-
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Almoço</h4>
-
-                                        <p>Serão oferecidas refeições completas gratuitamente. 
-                                        </p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/almoco.png"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    GDSC UFG
-                                                    <p class="speakers-text mb-0">Core Team</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                12h - 13h
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                               Pátio do INF UFG
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="nav-DayTwo" role="tabpanel" aria-labelledby="nav-DayTwo-tab">
-                                <div class="row border-bottom pb-5 mb-5">                                   
-
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-
-                                        <h4 class="mb-2">Credenciamento e Abertura</h4>
-
-                                        <p>O credenciamento será iniciado às 08h30 e será finalizado às 09h00.</p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/dev.png"
-                                                    class="img-fluid avatar-image" alt="">   
-                                                <div class="ms-3">GDSC UFG
-                                                    <p class="speakers-text mb-0">Core Team</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                08h30 - 10h 
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                Pátio do INF UFG
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row border-bottom pb-5 mb-5">  
-                                <div class="row">   
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Transição de Carreira: da Pedagogia para Inteligência Artificial</h4>
-
-                                        <p>add descrição</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/francieli-mit.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Francieli Moreira
-                                                    <p class="speakers-text mb-0">Graduanda em Inteligência Artificial UFG</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10h - 10h30
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                               A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>      
-                            <div class="row">    
-                            <div class="row">   
-                                <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                    <h4 class="mb-2">Arqueogenealogia da história das mulheres na computação</h4>
-
-                                    <p>A pesquisa que estamos desenvolvendo investiga os modos de apagamentos das mulheres como sujeitos atuantes na área de Tecnologia da Informação, proporcionando mais visibilidade aos trabalhos produzidos por mulheres desta área. Orientadora:  Raimunda Delfino, Mestre em Letras e Linguística; Coorientadora: Profa. Taciana Novo Kudo, Doutorado em Ciência da Computação.</p>
-
-                                    <div class="d-flex align-items-center mt-4">
-                                        <div class="avatar-group d-flex">
-                                            <img src="images/avatar/foto-thais-mit.jpg"
-                                                class="img-fluid avatar-image" alt="">
-
-                                            <div class="ms-3">
-                                                Thaís Gonçalves
-                                                <p class="speakers-text mb-0">Graduanda em Ciência da Computação UFG</p>
-                                            </div>
-                                        </div>
-
-                                        <span class="mx-3 mx-lg-5">
-                                            <i class="bi-clock me-2"></i>
-                                            10h30 - 11h
-                                        </span>
-
-                                        <span class="mx-1 mx-lg-5">
-                                           A definir
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-
-                            <div class="tab-pane fade" id="nav-DayThree" role="tabpanel"
-                                aria-labelledby="nav-DayThree-tab">
-                                <div class="row border-bottom pb-5 mb-5"> 
-                                    <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/credenciamento.jpg" class="schedule-image img-fluid" alt="">
-                                    </div>                                  
-
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-
-                                        <h4 class="mb-2">Credenciamento e Abertura</h4>
-
-                                        <p>O credenciamento será iniciado às 08h30 e será finalizado às 09h00.</p>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/dev.png"
-                                                    class="img-fluid avatar-image" alt="">   
-                                                <div class="ms-3">GDSC UFG
-                                                    <p class="speakers-text mb-0">Core Team</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                08h30 - 10h 
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                Pátio do INF UFG
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/ofic_arduino.jpg" class="schedule-image img-fluid" alt="">
-                                    </div>
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Pequiduino</h4>
-
-                                        <p>Oficina de arduino com o Núcleo de Robótica Pequi Mecânico. Criado em 2010, o grupo Pequi Mecânico é um núcleo formado por alunos da Universidade Federal de Goiás (UFG) que tem como objetivo estimular o aprendizado de robótica entre estudantes da UFG e comunidades externas que tenham interesse em conteúdos da área.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/pequiMecanico.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Pequi Mecânico
-                                                    <p class="speakers-text mb-0">Núcleo de Robótica UFG</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10h - 12h
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="nav-DayFour" role="tabpanel"
-                                aria-labelledby="nav-DayFour-tab">
-                                <div class="row border-bottom pb-5 mb-5">                                   
-
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Feira de Carreira</h4>
-
-                                        <p>There is a plenty of great HTML CSS templates available at TemplateMo.com
-                                            website for your businesses. You can download, edit and use any template for
-                                            any purpose. Please let us know </p>
-                                        
-                                            <div class="d-flex align-items-center mt-4">
-                                                <div class="avatar-group d-flex">
-                                                    <img src="images/avatar/feiraCarreiras.png"
-                                                        class="img-fluid avatar-image" alt="">
-    
-                                                    <div class="ms-3">
-                                                        Aliare e Tron
-                                                        <p class="speakers-text mb-0">Aliare e Tron</p>
-                                                    </div>
-                                                </div>
-    
-                                                <span class="mx-3 mx-lg-5">
-                                                    <i class="bi-clock me-2"></i>
-                                                    13h - 14h
-                                                </span>
-    
-                                                <span class="mx-1 mx-lg-5">
-                                                    <i class="bi-layout-sidebar me-2"></i>
-                                                    A definir
-                                                </span>
-                                            </div>
-                                            
-                                    </div>                                    
-                                </div>  
-                                <div class="row border-bottom pb-5 mb-5">    
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Startup, por onde devo começar?</h4>
-
-                                        <p>Quer aprender a levantar soluções para as problemáticas existentes no mundo dos negócios (para qualquer segmento)? 
-                                            Venha conhecer a metodologia utilizada pelas Startups para solucionar problemas.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/thielle.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Thielle Cathia
-                                                    <p class="speakers-text mb-0">Gerente de Projetos do <br>Estado de Goiás</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                14h20 - 14h50
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row border-bottom pb-5 mb-5">    
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Coffee Break</h4>
-
-                                        <p>Será oferecido lanche gratuitamente.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/coffee.png"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    GDSC UFG
-                                                    <p class="speakers-text mb-0">Core Team</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                15h30 - 16h
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row border-bottom pb-5 mb-5">    
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Pequiduino</h4>
-
-                                        <p>Oficina de arduino com o Núcleo de Robótica Pequi Mecânico. Criado em 2010, o grupo Pequi Mecânico é um núcleo formado por alunos da Universidade Federal de Goiás (UFG) que tem como objetivo estimular o aprendizado de robótica entre estudantes da UFG e comunidades externas que tenham interesse em conteúdos da área.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/pequiMecanico.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Pequi Mecânico
-                                                    <p class="speakers-text mb-0">Núcleo de Robótica UFG</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10h - 12h
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row border-bottom pb-5 mb-5">    
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Pequiduino</h4>
-
-                                        <p>Oficina de arduino com o Núcleo de Robótica Pequi Mecânico. Criado em 2010, o grupo Pequi Mecânico é um núcleo formado por alunos da Universidade Federal de Goiás (UFG) que tem como objetivo estimular o aprendizado de robótica entre estudantes da UFG e comunidades externas que tenham interesse em conteúdos da área.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/pequiMecanico.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Pequi Mecânico
-                                                    <p class="speakers-text mb-0">Núcleo de Robótica UFG</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10h - 12h
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row border-bottom pb-5 mb-5">    
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Pequiduino</h4>
-
-                                        <p>Oficina de arduino com o Núcleo de Robótica Pequi Mecânico. Criado em 2010, o grupo Pequi Mecânico é um núcleo formado por alunos da Universidade Federal de Goiás (UFG) que tem como objetivo estimular o aprendizado de robótica entre estudantes da UFG e comunidades externas que tenham interesse em conteúdos da área.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/pequiMecanico.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Pequi Mecânico
-                                                    <p class="speakers-text mb-0">Núcleo de Robótica UFG</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10h - 12h
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">    
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Pequiduino</h4>
-
-                                        <p>Oficina de arduino com o Núcleo de Robótica Pequi Mecânico. Criado em 2010, o grupo Pequi Mecânico é um núcleo formado por alunos da Universidade Federal de Goiás (UFG) que tem como objetivo estimular o aprendizado de robótica entre estudantes da UFG e comunidades externas que tenham interesse em conteúdos da área.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/pequiMecanico.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Pequi Mecânico
-                                                    <p class="speakers-text mb-0">Núcleo de Robótica UFG</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10h - 12h
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                A definir
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11h - 12h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/gallery/Meninas_digitais.png" alt="Thielle Cathia">
+                </div>
+                <h4>Era uma vez Lovelace: A História das Mulheres na Tecnologia<span> Meninas Digitais no Cerrado</span></h4>
+            </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12h - 13h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/almoco.png" alt="Evellin Cardoso">
+                </div>
+                <h4>Almoço</h4>
+                <p>Serão oferecidas refeições completas gratuitamente.</p>
+              </div>
+            </div>            
+
+          </div>
+          <!-- End Schdule Day 1 -->
+
+          <!-- Schdule Day 2 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>08h30 - 10h</time></div>
+              <div class="col-md-10">
+                <h4>Credenciamento e Abertura</h4>
+                <p>O credenciamento será iniciado às 08h30 e será finalizado às 09h00.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10h - 10h30</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/francieli.jpg" alt="Francieli Moreira">
+                </div>
+                <h4>Transição de Carreira: da Pedagogia para Inteligência Artificial <span>Francieli Moreira</span></h4>
                 
-                                
-                           
-                         
-
-
-
-
-
-                      
-
-                            </div>
-
-
-
-
-
-
-
-
-
-                        </div>
-                    </div>
-
-                </div>
+              </div>
             </div>
-        </section>
 
-        <section class="call-to-action section-padding">
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="col-lg-7 col-12">
-                        <h2 class="text-white mb-4">Become an <u class="text-info">event speaker?</u></h2>
-
-                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut dolore</p>
-                    </div>
-
-                    <div class="col-lg-3 col-12 ms-lg-auto mt-4 mt-lg-0">
-                        <a href="#section_5" class="custom-btn btn">Register Today</a>
-                    </div>
-
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10h30 - 11h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/Thais.jpg" alt="Thais Goncalves">
                 </div>
+                <h4>Arqueogenealogia da história das mulheres na computação <span>Thaís Gonçalves</span></h4>
+                
+              </div>
             </div>
-        </section>
-         <!-- ======= Supporters Section ======= -->
 
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11h - 11h30 </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/4.jpg" alt="Juliana Resplande">
+                </div>
+                <h4>A definir <span>Juliana Resplande</span></h4>
+               
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11h30 - 12h </time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/Thailane.jpg" alt="Thailane">
+                </div>
+                <h4>Iniciando na área de T.I.: Primeiros Passos, Carreira e Mercado <span>Thailane Lopes</span></h4>
+                
+              </div>
+            </div>
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12h - 13h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/almoco.png" alt="Evellin Cardoso">
+                </div>
+                <h4>Almoço</h4>
+                <p>Serão oferecidas refeições completas gratuitamente.</p>
+              </div>
+            </div>  
+          </div>
+          <!-- End Schdule Day 2 -->
+
+          <!-- Schdule Day 3 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>08h30 - 10h</time></div>
+              <div class="col-md-10">
+                <h4>Credenciamento e Abertura</h4>
+                <p>O credenciamento será iniciado às 08h30 e será finalizado às 09h00.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10h - 12h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/gallery/3.jpg" alt="Evellin Cardoso">
+                </div>
+                <h4>Pequiduino <span>Núcleo de Robótica UFG</span></h4>
+                <p>Oficina de arduino com o Núcleo de Robótica Pequi Mecânico. Criado em 2010, o grupo Pequi Mecânico é um núcleo formado por alunos da Universidade Federal de Goiás (UFG) que tem como objetivo estimular o aprendizado de robótica entre estudantes da UFG e comunidades externas que tenham interesse em conteúdos da área.</p>
+              </div>
+            </div>
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12h - 13h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/almoco.png" alt="Evellin Cardoso">
+                </div>
+                <h4>Almoço</h4>
+                <p>Serão oferecidas refeições completas gratuitamente.</p>
+              </div>
+            </div>            
+
+          </div>
+          <!-- End Schdule Day 2 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-4">
+
+           <div class="row schedule-item">
+              <div class="col-md-2"><time>13h- 14h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/feiraCarreiras.png" alt="Evellin Cardoso">
+                </div>
+                <h4>Feira de Carreira <span>Aliare e Tron</span></h4>               
+              </div>
+            </div>
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>14h20 - 14h50</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Thielle">
+                </div>
+                <h4>Startup, por onde devo começar?<span> Thielle Cathia</span></h4>
+                <p>Quer aprender a levantar soluções para as problemáticas existentes no mundo dos negócios (para qualquer segmento)? Venha conhecer a metodologia utilizada pelas Startups para solucionar problemas.</p>
+              </div>
+            </div>     
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>15h30 - 16h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/coffee.png" alt="Thielle">
+                </div>
+                <h4>Coffee Break</h4>
+                <p>Será oferecido lanche gratuitamente.</p>
+              </div>
+            </div> 
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>16h - 17h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/mesaRedonda.jpg" alt="Thielle">
+                </div>
+                <h4>Mesa redonda</h4>
+                <p>O protagonismo da mulher na tecnologia e seus desafios: carreiras para se inspirar</p>
+              </div>
+            </div>  
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>17h - 18h</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/evelyn-mendes-mit.jpg" alt="Thielle">
+                </div>
+                <h4>Firebase <span>Evelyn Mendes</span></h4>                
+              </div>
+            </div>         
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Schedule Section -->
+
+    <!-- ======= Venue Section ======= -->
+    <section id="venue">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Localização</h2>
+          <p>Este é o local do evento</p>
+        </div>
+
+        <div class="row g-0">
+          <div class="col-lg-6 venue-map">
+            <iframe class="google-map"                           
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.462706343228!2d-49.268711884590324!3d-16.603531247799644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef34bca719ee1%3A0x79210783139c2057!2sInstituto%20de%20Inform%C3%A1tica%20(INF)%20-%20UFG!5e0!3m2!1spt-BR!2sbr!4v1659460381633!5m2!1spt-BR!2sbr" width="100%" height="371.59" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8 position-relative">
+                
+                <h3></i> Instituto de Informática (INF) - UFG</h3>
+                <p > <i class="bi-geo-alt me-2"></i>Universidade Federal de Goiás - Campus Samambaia - Alameda Palmeiras, s/n - Chácaras Califórnia, Goiânia - GO, 74690-900</p>
+                <h6 class="mt-4 mb-3">
+                  <a href="mailto:dscufg@gmail.com">
+                      <i class="bi-envelope me-2"></i>
+                      dscufg@gmail.com
+                  </a>
+              </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>     
+
+    </section><!-- End Venue Section -->    
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2> COMUNIDADES</h2>
+          <p>Check our gallery from the recent events</p>
+        </div>
+      </div>
+
+      <div class="gallery-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><a href="assets/img/gallery/1.jpg" class="gallery-lightbox"><img src="assets/img/gallery/1.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/2.jpg" class="gallery-lightbox"><img src="assets/img/gallery/2.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/3.jpg" class="gallery-lightbox"><img src="assets/img/gallery/3.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/4.jpg" class="gallery-lightbox"><img src="assets/img/gallery/4.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/6.jpg" class="gallery-lightbox"><img src="assets/img/gallery/6.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="assets/img/gallery/5.jpg" class="gallery-lightbox"><img src="assets/img/gallery/5.jpg" class="img-fluid" alt=""></a></div>
+          
+          <div class="swiper-slide"><a href="assets/img/gallery/7.jpg" class="gallery-lightbox"><img src="assets/img/gallery/7.jpg" class="img-fluid" alt=""></a></div>
          
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Supporters Section ======= -->
     <section id="supporters" class="section-with-bg">
 
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Sponsors</h2>
-          </div>
-  
-          <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
-  
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="supporter-logo">
-                <img src="images/avatar/pequiMecanico.jpg" class="img-fluid" alt="">
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="supporter-logo">
-                <img src="assets/img/supporters/2.png" class="img-fluid" alt="">
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="supporter-logo">
-                <img src="assets/img/supporters/3.png" class="img-fluid" alt="">
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="supporter-logo">
-                <img src="assets/img/supporters/4.png" class="img-fluid" alt="">
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="supporter-logo">
-                <img src="assets/img/supporters/5.png" class="img-fluid" alt="">
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="supporter-logo">
-                <img src="assets/img/supporters/6.png" class="img-fluid" alt="">
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="supporter-logo">
-                <img src="assets/img/supporters/7.png" class="img-fluid" alt="">
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="supporter-logo">
-                <img src="assets/img/supporters/8.png" class="img-fluid" alt="">
-              </div>
-            </div>
-  
-          </div>
-  
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Patrocinadores e Parceiros</h2>
         </div>
-  
-      </section><!-- End Sponsors Section -->
-  
 
-        <section class="pricing section-padding" id="section_5">
-            <div class="container">
-                <div class="row">
+        <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
 
-                    <div class="col-lg-10 col-12 text-center mx-auto mb-5">
-                        <h2>Get Your <u class="text-info">Tickets</u></h2>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
-                        <div class="pricing-thumb bg-white shadow-lg">
-                            <div class="pricing-title-wrap d-flex align-items-center">
-
-                                <h4 class="pricing-title text-white mb-0">Early Bird</h4>
-
-                                <h5 class="pricing-small-title text-white mb-0 ms-auto">$640</h5>
-                            </div>
-
-                            <div class="pricing-body">
-                                <p>
-                                    <i class="bi-cup me-2"></i> All-Day Coffee + Snacks
-                                </p>
-
-                                <p>
-                                    <i class="bi-controller me-2"></i> After Party
-                                </p>
-
-                                <p>
-                                    <i class="bi-chat-square me-2"></i> 24/7 Support
-                                </p>
-
-                                <div class="border-bottom pb-3 mb-4"></div>
-
-                                <p>Quick group meetings for multiple teams</p>
-
-                                <a class="custom-btn btn mt-3" href="#">Buy Tickets</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
-                        <div class="pricing-thumb bg-white shadow-lg">
-                            <div class="pricing-title-wrap d-flex align-items-center">
-
-                                <h4 class="pricing-title text-white mb-0">Gold</h4>
-
-                                <h5 class="pricing-small-title text-white mb-0 ms-auto">$840</h5>
-                            </div>
-
-                            <div class="pricing-body">
-                                <p>
-                                    <i class="bi-cup me-2"></i> All-Day Coffee + Snacks
-                                </p>
-
-                                <p>
-                                    <i class="bi-boombox me-2"></i> Group Meetings + After Party
-                                </p>
-
-                                <p>
-                                    <i class="bi-chat-square me-2"></i> 24/7 Support + Instant Chats
-                                </p>
-
-                                <div class="border-bottom pb-3 mb-4"></div>
-
-                                <p>Quick group meetings for multiple teams</p>
-
-                                <a class="custom-btn btn mt-3" href="#">Buy Tickets</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="pricing-thumb bg-white shadow-lg">
-                            <div class="pricing-title-wrap d-flex align-items-center">
-
-                                <h4 class="pricing-title text-white mb-0">Platinum</h4>
-
-                                <h5 class="pricing-small-title text-white mb-0 ms-auto">$1,240</h5>
-                            </div>
-
-                            <div class="pricing-body">
-                                <p>
-                                    <i class="bi-cash me-2"></i> Cashback $200
-                                </p>
-
-                                <p>
-                                    <i class="bi-boombox me-2"></i> Private Meetings + After Party
-                                </p>
-
-                                <p>
-                                    <i class="bi-chat-square me-2"></i> 24/7 Support + Instant Chats
-                                </p>
-
-                                <div class="border-bottom pb-3 mb-4"></div>
-
-                                <p>group talks and private chats for multiple teams</p>
-
-                                <a class="custom-btn btn mt-3" href="#">Buy Tickets</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/1.png" class="img-fluid" alt="">
             </div>
-        </section>
+          </div>
 
-        <section class="venue section-padding" id="section_6">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-12">
-                        <h2 class="mb-5">Here you go <u class="text-info">Venue</u></h2>
-                    </div>
-
-                    <div class="col-lg-6 col-12">
-                        <iframe class="google-map"                           
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.462706343228!2d-49.268711884590324!3d-16.603531247799644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef34bca719ee1%3A0x79210783139c2057!2sInstituto%20de%20Inform%C3%A1tica%20(INF)%20-%20UFG!5e0!3m2!1spt-BR!2sbr!4v1659460381633!5m2!1spt-BR!2sbr" width="100%" height="371.59" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                        <div class="venue-thumb bg-white shadow-lg">
-
-                            <div class="venue-info-title">
-                                <h4 class="text-white mb-0">Instituto de Informática (INF) - UFG</h4>
-                            </div>
-
-                            <div class="venue-info-body">
-                                <h5 class="d-flex">
-                                    <i class="bi-geo-alt me-2"></i>
-                                    <span>Universidade Federal de Goiás - Campus Samambaia - Alameda Palmeiras, s/n - Chácaras Califórnia, Goiânia - GO, 74690-900</span>
-                                </h5>
-
-                                <h5 class="mt-4 mb-3">
-                                    <a href="mailto:hello@yourgmail.com">
-                                        <i class="bi-envelope me-2"></i>
-                                        hi@company.com
-                                    </a>
-                                </h5>
-                                
-                            </div>
-                        </div>
-                    </div>                
-                </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/2.png" class="img-fluid" alt="">
             </div>
+          </div>
 
-
-        
-        </section>
-
-    </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row align-items-center">
-
-                <div class="col-lg-12 col-12 border-bottom pb-5 mb-5">
-                    <div class="d-flex">
-                        <a href="index.html" class="navbar-brand">
-                            <!--<i class="bi-bullseye brand-logo"></i>-->
-                            <span class="brand-text">{Mulheres <br> in Tech</span>
-                        </a>
-
-                        <ul class="social-icon ms-auto">
-                            <li><a href="#" class="social-icon-link bi-facebook"></a></li>
-
-                            <li><a href="https://www.instagram.com/gdsc_ufg/" class="social-icon-link bi-instagram"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-7 col-12">
-                    <ul class="footer-menu d-flex flex-wrap">
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Our Story</a></li>
-
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Code of Conduct</a></li>
-
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy and Terms</a></li>
-
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
-                    </ul>
-                </div>
-
-
-                <div class="col-lg-5 col-12 ms-lg-auto">
-                    <div class="copyright-text-wrap d-flex align-items-center">
-                        <p class="copyright-text ms-lg-auto me-4 mb-0">Copyright © 2022 Leadership Event Co., Ltd.
-
-                            <br>All Rights Reserved.
-
-                            <br><br>Design: <a title="CSS Templates" rel="sponsored" href="https://templatemo.com"
-                                target="_blank">TemplateMo</a>
-                        </p>
-
-                        <a href="#section_1" class="bi-arrow-up arrow-icon custom-link"></a>
-                    </div>
-                </div>
-
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/3.png" class="img-fluid" alt="">
             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
         </div>
-    </footer>
 
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/custom.js"></script>
+      </div>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    </section><!-- End Sponsors Section -->
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    
+    <!-- ======= Buy Ticket Section ======= -->
+    <section id="buy-tickets" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Ingresso</h2>
+          <p>A taxa de inscrição de evento é 1 kg de alimento não precível, que deverá ser entregue no dia do evento.</p>
+        </div>
+
+        <div class="row d-flex justify-content-center">          
+          <!-- Pro Tier -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Taxa de Inscrição</h5>
+                <h6 class="card-price text-center">1 kg de alimento</h6>                
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Atividades presenciais</li>                 
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Almoço</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>                  
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Sorteio de brindes</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Certificado</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <a type="button" class="btn" href="https://www.sympla.com.br/mulheres-in-tech---edicao-zero--gdsc-ufg__1662091" role="button" target="_blank">Inscreva-se</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal Order Form -->
+      <div id="buy-ticket-modal" class="modal fade">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Buy Tickets</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form method="POST" action="#">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
+                </div>
+                <div class="form-group mt-3">
+                  <select id="ticket-type" name="ticket-type" class="form-select">
+                    <option value="">-- Select Your Ticket Type --</option>
+                    <option value="standard-access">Standard Access</option>
+                    <option value="pro-access">Pro Access</option>
+                    <option value="premium-access">Premium Access</option>
+                  </select>
+                </div>
+                <div class="text-center mt-3">
+                  <button type="submit" class="btn">Buy Now</button>
+                </div>
+              </form>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+    </section><!-- End Buy Ticket Section -->   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+
+          <div class="col-lg-3 col-md-6 footer-info d-flex justify-content-center">
+            <img src="assets/img/logo2.png" alt="TheEvenet">            
+          </div>
+
+          <div class="social-links d-flex justify-content-center">
+            <a href="https://twitter.com/gdsc_ufg " class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>             
+            <a href="https://instagram.com/gdsc_ufg" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCtr-eI8ACGAk_KX91XqKedw" class="youtube" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/gdscufg/mycompany/?" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        Feito com ❤️ pelo GDSC UFG 
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
